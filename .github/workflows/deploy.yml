@@ -1,0 +1,18 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+          description: 'Environment to deploy to'
+          type: environment
+          required: true
+
+jobs:
+  test-app: # Replace with your app name
+    uses: glcp/mfe-workflows/.github/workflows/deploy-app.yml@v1
+    with:
+      app: test-app # Replace with your app name
+      build-path: build
+      legacy: false
+    secrets: inherit

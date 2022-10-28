@@ -1,0 +1,20 @@
+# This previews workflow deploys your app's build output to a subdirectory of your scoped s3 directory  
+# in the integration environment. For example, if your deploy path is {intg s3 bucket}/test-app, then previews 
+# would deploy to {intg s3 bucket}/test-app/preview/{branch-name}. It is therefore a critical prerequisite to
+# have registered in the integration environment's `services.json` before uncommenting this workflow. For more information, 
+# see https://developer.greenlake.hpe.com/docs/greenlake/guides/internal/front-end/mfe/github_oidc/
+
+# name: Previews
+
+# on:
+#   pull_request:
+#     types: [opened, reopened, synchronize, closed]
+
+# jobs:
+#   preview:
+#     uses: glcp/mfe-workflows/.github/workflows/deploy-preview.yml@v1
+#     with:
+#       app: test-app # Replace with your app name
+#       build-path: build
+#       legacy: false
+#     secrets: inherit

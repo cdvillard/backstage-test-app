@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`en-US messages creates snapshot 1`] = `
+Object {
+  "errorBoundary.app.default.name": "This app",
+  "errorBoundary.app.desc": "There was an error. Please refresh the page. You may need to clear caches and reopen your browser. If the issue persists, contact support.",
+  "errorBoundary.app.refresh": "Refresh",
+  "errorBoundary.app.support": "Contact Support",
+  "errorBoundary.app.title": "Uh oh. {app} failed to load properly.",
+  "noPermissions": "No Permissions",
+  "noPermissions.dashboard": "Dashboard",
+  "noPermissions.description": "You don't have permissions to see resources in this space.",
+  "noPermissions.documentation": "Documentation",
+  "noPermissions.nextSteps": "Go to {dashboardLink} and select desired tenant and space in the navigation pane.",
+  "noPermissions.requestAccess": "Request Access",
+  "notFound": "Not Found",
+  "notFound.button": "Take me to the dashboard",
+  "notFound.description": "It seems that you linked to a page that doesn't exist.",
+  "notFound.error404": "404: Page Not Found",
+  "notFound.explanationOne.body": "We moved a page that you have bookmarked. Please remove or update the bookmark.",
+  "notFound.explanationOne.title": "Outdated bookmark",
+  "notFound.explanationThree.body": "You clicked a link to a page that was moved.",
+  "notFound.explanationThree.title": "Page moved",
+  "notFound.explanationTwo.body": "You tried to access a page that doesn't exist.  Please double check your link.",
+  "notFound.explanationTwo.title": "Page doesn't exist",
+  "notFound.explanations.title": "Why am I seeing this?",
+  "notFound.title": "Oops, looks like this link didn't work!",
+  "refresh.prompt.continue": "Refresh",
+  "refresh.prompt.logout": "Log Out",
+  "refresh.prompt.text": "Refresh your browser to extend your session, otherwise you will be logged out.",
+  "refresh.prompt.title": "Your session will expire soon",
+}
+`;

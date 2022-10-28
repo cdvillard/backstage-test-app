@@ -1,0 +1,53 @@
+{
+  "name": "backstage-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@okta/okta-auth-js": "^6.7.2",
+    "@okta/okta-react": "^6.5.0",
+    "@saturn/app-components": "^3.0.0-beta.1",
+    "@saturn/hooks": "^3.0.0-beta.1",
+    "@saturn/session": "^3.0.0-beta.1",
+    "@saturn/toast-alerts": "^3.0.0-beta.1",
+    "@saturn/workflows": "^3.0.0-beta.1",
+    "core-js": "3.21.1",
+    "grommet": "^2.0.0",
+    "grommet-icons": "^4.0.0",
+    "grommet-theme-hpe": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-intl": "^6.0.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "regenerator-runtime": "0.13.9",
+    "single-spa-react": "^5.0.0",
+    "styled-components": "^5.0.0"
+  },
+  "scripts": {
+    "start": "SERVE_HOST=true yarn serve",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@glcp/mfe-utils": "^0.3.0",
+    "@glcp/react-scripts": "^5.0.3"
+  }
+}

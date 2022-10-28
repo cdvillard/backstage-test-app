@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-components/NotFound Matches snapshot 1`] = `
+<div
+  class="StyledBox-sc-13pk1d4-0 kqVhCV"
+>
+  <h2
+    class="StyledHeading-sc-1rdh4aw-0 uIOfw"
+  >
+    notFound.title
+  </h2>
+  <span
+    class="StyledText-sc-1sadyjn-0 fzLHNT"
+  >
+    notFound.description
+  </span>
+  <div
+    class="StyledBox-sc-13pk1d4-0 keMLQv"
+  >
+    <button
+      class="StyledButton-sc-323bzc-0 dBcUrk"
+      type="button"
+    >
+      notFound.button
+    </button>
+  </div>
+  <div
+    class="StyledBox-sc-13pk1d4-0 hXkiLl"
+  >
+    <h3
+      class="StyledHeading-sc-1rdh4aw-0 hfuwla"
+    >
+      notFound.explanations.title
+    </h3>
+    <div
+      class="StyledBox-sc-13pk1d4-0 kjLhSK"
+    >
+      <div
+        class="StyledBox-sc-13pk1d4-0 hItXvo"
+      >
+        <h4
+          class="StyledHeading-sc-1rdh4aw-0 kBKwAi"
+        >
+          notFound.explanationOne.title
+        </h4>
+        <span
+          class="StyledText-sc-1sadyjn-0 flpFwE"
+        >
+          notFound.explanationOne.body
+        </span>
+      </div>
+      <div
+        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 itCgil"
+      />
+      <div
+        class="StyledBox-sc-13pk1d4-0 hItXvo"
+      >
+        <h4
+          class="StyledHeading-sc-1rdh4aw-0 kBKwAi"
+        >
+          notFound.explanationTwo.title
+        </h4>
+        <span
+          class="StyledText-sc-1sadyjn-0 flpFwE"
+        >
+          notFound.explanationTwo.body
+        </span>
+      </div>
+      <div
+        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 itCgil"
+      />
+      <div
+        class="StyledBox-sc-13pk1d4-0 hItXvo"
+      >
+        <h4
+          class="StyledHeading-sc-1rdh4aw-0 kBKwAi"
+        >
+          notFound.explanationThree.title
+        </h4>
+        <span
+          class="StyledText-sc-1sadyjn-0 flpFwE"
+        >
+          notFound.explanationThree.body
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
