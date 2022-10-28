@@ -2,15 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-test-app
-  description: An example of a Backstage application.
+  description: Example entity in backstage app
   tags:
-    - mfe
+    - go
     - website
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: pioneer
   lifecycle: production
+  owner: cdvillard
