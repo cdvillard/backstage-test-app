@@ -19,7 +19,6 @@
     "react-dom": "^18.1.0",
     "react-intl": "^6.0.4",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
     "regenerator-runtime": "0.13.9",
     "single-spa-react": "^5.0.0",
     "styled-components": "^5.0.0"

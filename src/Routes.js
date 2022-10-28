@@ -37,7 +37,7 @@ const getRoutes = (permissions) => {
       Component: ({name}) => <div>Sample App: {name}</div>,
       permissionMatcher: () => true,
       props: {
-        name: "HPE GreenLake"
+        name: "HPE GreenLake Backstage Test App"
       }
     },
   ];

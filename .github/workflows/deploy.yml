@@ -12,7 +12,7 @@ jobs:
   test-app: # Replace with your app name
     uses: glcp/mfe-workflows/.github/workflows/deploy-app.yml@v1
     with:
-      app: test-app # Replace with your app name
+      app: backstage-test-app # Replace with your app name
       build-path: build
       legacy: false
     secrets: inherit
